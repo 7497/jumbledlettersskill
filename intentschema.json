@@ -1,0 +1,271 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "jumbled letters game",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start a game",
+                        "start"
+                    ]
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DeleteIntent",
+                    "slots": [],
+                    "samples": [
+                        "delete everything",
+                        "delete my previous game"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Guess",
+                            "type": "Answers"
+                        },
+                        {
+                            "name": "LetterOne",
+                            "type": "Alphabets"
+                        },
+                        {
+                            "name": "LetterTwo",
+                            "type": "Alphabets"
+                        },
+                        {
+                            "name": "LetterThree",
+                            "type": "Alphabets"
+                        },
+                        {
+                            "name": "LetterFour",
+                            "type": "Alphabets"
+                        }
+                    ],
+                    "samples": [
+                        "is the answer {Guess} {LetterOne} {LetterTwo} {LetterThree} {LetterFour}",
+                        "is the answer {LetterOne} {LetterTwo} {LetterThree} {LetterFour} {Guess}",
+                        "my answer is {LetterOne} {LetterTwo} {LetterThree} {LetterFour} {Guess}",
+                        "my answer is {Guess} {LetterOne} {LetterTwo} {LetterThree} {LetterFour}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Alphabets",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "z"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "y"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "x"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "w"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "v"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "u"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "t"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "s"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "r"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "q"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "p"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "o"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "n"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "m"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "l"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "k"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "j"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "i"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "h"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "g"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "f"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "e"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "d"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "c"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "b"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Answers",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "time"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "step"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hazy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flux"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jury"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quay"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mojo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jibe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bozo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quip"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
